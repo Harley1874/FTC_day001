@@ -1,0 +1,21 @@
+body{
+    width: 100%;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+}
+.all div{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+.all div span{
+    flex: 1;
+    padding-top: 32%;
+    background-color: orange;
+    border-radius: 10%;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+.all div span:nth-child(1){
+    margin-left: 0;
+}
